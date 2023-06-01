@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*, *:before, *:after {
+    transition:.2s ease-in-out;
+  }
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+.site-header {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.site-header a {
+    text-decoration: none;
+    color: #000;
+}
+.site-header a:hover{
+    color: rgb(179, 179, 179);
+}
+
+.site-identity{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: 0.6em 0;
+    display: inline-block;
+    margin-left: 20px;
+}
+.site-navigation{
+    display: flex;
+    align-items: center;
+}
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+}
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+.tabPanelContainer
+{   
+    justify-content:center;
+    height: 30%;
+    border: 3px solid rgb(61,234,86);
+    background: rgba(61,234,86,0.2);
+    color:#e98604;
+ 
+}
+.tabPanelContainer .tabPanel
+{
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Orbitron",sans-serif;
+    letter-spacing: 0.15em;
+}
+.tabPanelContainer .tabPanel .tabsub
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+.main{
+    background: rgb(104, 98, 98);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.main a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sanvuon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phongkhach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thietbikhach{
+    display: flex;
+}
+.phongngu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phongbep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.light
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin: 0 200px;
+}
+
+
+
+img.light_on {
+    width: 200px;
+    height: 200px;
+}
+img.light_off {
+    width: 200px;
+    height: 200px;
+}
+img.fan_on {
+    width: 200px;
+    height: 200px;
+}
+img.fan_off {
+    width: 200px;
+    height: 200px;
+}
+
+.thietbikhach button {
+    color: #f32179;
+    padding:20px;
+    border-color: #f32179;
+    font-size: 30px;
+    transition: 0.2s;
+    background-color: transparent;
+    border-radius: 3em;
+    cursor: pointer;
+}
+
+.thietbikhach button:hover{
+    color: #fff;
+    background: #f32179;
+    box-shadow: 0 0 10px #f32179, 0 0 30px #f32179, 0 0 60px #f32179;
+}
+
+.boxbutton1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxbutton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
